@@ -1,0 +1,14 @@
+#header1_d{
+	font-size: .2rem;
+	
+}
+p{width: 98%;
+border: 1px solid #f1f1f1;
+padding: .1rem;
+margin-bottom: .2rem;}
+#btn_d{
+	width: 2.4rem;
+	height: .8rem;
+	color: #fff;
+	background: red;
+}

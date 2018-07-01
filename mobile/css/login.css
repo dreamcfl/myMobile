@@ -1,0 +1,15 @@
+.content_wrap1{
+	margin-top:.88rem;
+}
+
+
+input{
+	height: .88rem;
+	width: 100%;text-indent: .1rem;
+}
+
+#login_btn,#register_btn{
+	margin-top: .2rem;
+	color: #fff;
+	background: red;
+}

@@ -1,0 +1,79 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,input{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../js/fonts/iconfont.eot');
+  src: url('../js/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../js/fonts/iconfont.woff') format('woff'),
+  url('../js/fonts/iconfont.ttf') format('truetype'),
+  url('../js/fonts/iconfont.svg#iconfont') format('svg');
+}
+body{font-size: 16px;margin-bottom: .96rem;
+margin-top: .88px;}
+
+
+.header1{
+	background: blue;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	display: flex;justify-content: center;height: .88rem;align-items: center;
+	font-size: .28rem;
+}
+
+header span{
+	top: 0;left:0 ;
+	position: absolute;
+	font-family: 'iconfont';
+	font-size: .50rem;
+	line-height: .88rem;
+	margin-left: .2rem;
+}
+.content_wrap{
+	margin-top: .88rem;
+	
+}
+
+
+
+footer{
+	font-family: 'iconfont';
+	display: flex;justify-content: space-around;align-items: center;height: .96rem;
+position: fixed;left: 0%;bottom: 0;width: 100%;background: #fff;z-index: 99;
+background: blue;
+}
+footer dl{display: flex;justify-content: space-around;align-items: center;flex-direction: column;color: #757575;color: #fff;}
+footer dl dt{
+	
+	font-size: .50rem;
+}
+footer dl dd{
+	font-size: .28rem;
+}
+
+.box{
+	position: relative;
+	left: 0%;
+}
+.box1{
+	float: left;
+	width: 30%;
+	left: -30%;
+	top: 0;position: fixed;
+	z-index: -2;
+	font-size: .24rem;
+}
+.box1 li{
+	margin: 1rem .3rem;
+}
